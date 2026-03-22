@@ -43,7 +43,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <label class="block text-gray-700 font-semibold mb-2">📝 อาการเบื้องต้น</label>
                 <textarea name="issue_detail" rows="3" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
             </div>
-            <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition duration-300 shadow-md">ส่งเรื่องแจ้งซ่อม</button>
+            <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition duration-300 shadow-md mb-4">ส่งเรื่องแจ้งซ่อม</button>
+            <div class="text-center mt-4 border-t pt-4">
+                <a href="dashboard.php" class="text-blue-500 hover:text-blue-700 font-semibold text-sm">➡️ ไปยังหน้า Dashboard (ของ B) เพื่อดูข้อมูล</a>
+            </div>
         </form>
     </div>
     
